@@ -60,6 +60,8 @@
         android:text="Everyday 10am-10pm"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="@+id/text_view_phone"
+        android:clickable="true"
+        android:onClick="createMapIntent"
         app:layout_constraintTop_toTopOf="@+id/image_view_hours" />
 
     <ImageView
