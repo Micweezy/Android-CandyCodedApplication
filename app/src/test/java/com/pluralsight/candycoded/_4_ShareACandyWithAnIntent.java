@@ -2,6 +2,7 @@ package com.pluralsight.candycoded;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
@@ -39,6 +40,8 @@ public class _4_ShareACandyWithAnIntent {
     private static boolean set_type = false;
     private static boolean called_put_extra = false;
     private static boolean called_startActivity_correctly = false;
+
+
 
     // Mockito setup
     @BeforeClass
